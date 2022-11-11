@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
                 int n = sc.nextInt();
 
-              for (int i = 1; i<n; i++){
+              for (int i = 1; i<=n; i++){
                       int num = i;
                       int sum = 0;
                       while(num != 0) {
